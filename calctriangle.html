@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Triangle Calculator</title>
+</head>
+<body>
+	<h1>Triangle Calculator</h1>
+    <img src="triangleformula.png"><br><br>
+
+	<form>
+		<label for="base">Base:</label>
+		<input type="number" id="base" name="base" required><br><br>
+
+		<label for="height">Height / Side :</label>
+		<input type="number" id="height" name="height" required><br><br>
+
+		<input type="button" value="Calculate" onclick="calculate()">
+        
+        <input type="reset" value="Reset"><br><br>
+        
+		<label for="resultarea">Area:</label>
+		<input type="number" id="resultarea" name="resultarea" disabled><br><br>
+
+        <label for="resultperimeter">Perimeter:</label>
+		<input type="number" id="resultperimeter" name="resultperimeter" disabled><br><br>
+	</form>
+
+    <form action="homepagecalc.html" method="get">
+		<input type="submit" value="Back">
+	</form>
+
+    
+
+	<script>
+		function calculate() {
+			const base = document.getElementById("base").value;
+			const height = document.getElementById("height").value;
+			const result1 = 0.5 * base * height;
+			document.getElementById("resultarea").value = result1;
+       
+            const side1 = document.getElementById("height").value;
+            const side2 = document.getElementById("base").value;
+            const result2 = Number(side1) + Number(side1) + Number(side2);
+            document.getElementById("resultperimeter").value = result2;
+        }
+	</script>
+</body>
+</html>
+
+
