@@ -1,20 +1,29 @@
 /* Style the form */
 
-  title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
   }
-
+  
   img {
-    size: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
   }
 
+  .container {
+    display: inline-flexbox;
+    justify-content: center;
+  }
+  
   form {
     width: 300px;
     margin: 20px auto;
     padding: 20px;
-    border: 2px solid #ab0545;
+    border: 2px solid #7f5539;
     border-radius: 10px;
-    background-color: #ea0a9f;
+    background-color: #c3a995;
   }
   
   label {
@@ -34,44 +43,44 @@
   
   button {
     margin-top: 10px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 5px;
-    background-color: #05ca29;
+    background-color: #3f7d20;
     color: #fff;
     border: none;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #3e8e41;
+    background-color: #72b01d;
   }
 
   button2 {
     margin-top: 10px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 5px;
-    background-color: #f40e1a;
+    background-color: #b1150c;
     color: #fff;
     border: none;
     cursor: pointer;
   }
 
   button2:hover {
-    background-color: #a8272d;
+    background-color: #e71d36;
   }
   
   button3 {
     margin-top: 10px;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: #0bbbfc;
+    background-color: #00526e;
     color: #fff;
     border: none;
     cursor: pointer;
   }
 
   button3:hover {
-    background-color: #1e8fb8;
+    background-color: #0d80bf;
   }
 
   input[type="number"][readonly] {
@@ -80,7 +89,7 @@
   
   /* Style the error message */
   #error-message {
-    color: red;
+    color: #e70e02;
     display: none;
     margin-top: 10px;
   }
