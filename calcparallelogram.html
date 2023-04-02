@@ -6,34 +6,42 @@
 	<link rel="stylesheet" href="calcstyle.css">
 </head>
 <body>
-	<div class="container">
-	<h1>Parallelogram Calculator</h1>
-	<img src="parallelogramformula.png" alt="parallelogramformula"><br><br>
+	<div>
+		<h1>Parallelogram Calculator</h1>
+		<img src="parallelogramformula.png" alt="parallelogramformula"><br><br>
+	</div>
+	<div>
+		<form>
+			<div>
+				<label for="base">Base :</label>
+				<input type="number" id="base" name="base" required><br><br>
 
-	<form>
-		<label for="base">Base :</label>
-		<input type="number" id="base" name="base" required><br><br>
+				<label for="height">Height :</label>
+				<input type="number" id="height" name="height" required><br><br>
 
-		<label for="height">Height :</label>
-		<input type="number" id="height" name="height" required><br><br>
+				<label for="side">Side :</label>
+				<input type="number" id="side" name="side" required><br><br>
+			</div>
+			<div>
+				<p id="error-message" style="color: red; display: none;">Please enter a value for the base, height and side."</p>
+			</div>
+			<div>
+				<button onclick="calculate2()">Calculate</button>
+			</div>
+			<div>
+        		<button type="reset">Reset</button><br><br>
+			</div>
+			<div>
+				<label for="resultarea">Area :</label>
+				<input type="number" id="resultarea" name="resultarea" disabled><br><br>
 
-		<label for="side">Side :</label>
-		<input type="number" id="side" name="side" required><br><br>
-
-		<p id="error-message" style="color: red; display: none;">Please enter a value for the base, height and side."</p>
-
-		<button onclick="calculate2()">Calculate</button>
-
-        <button type="reset">Reset</button><br><br>
-        
-		<label for="resultarea">Area :</label>
-		<input type="number" id="resultarea" name="resultarea" disabled><br><br>
-
-        <label for="resultperimeter">Perimeter :</label>
-		<input type="number" id="resultperimeter" name="resultperimeter" disabled><br><br>
-
-		<button onclick="goHome()">Back</button><br><br>
-	</form>
+        		<label for="resultperimeter">Perimeter :</label>
+				<input type="number" id="resultperimeter" name="resultperimeter" disabled><br><br>
+			</div>
+			<div>
+				<button onclick="goHome()">Back</button><br><br>
+			</div>
+		</form>
 	</div>
 
     
