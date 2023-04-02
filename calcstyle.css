@@ -1,0 +1,86 @@
+/* Style the form */
+
+  title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  img {
+    size: 10px;
+  }
+
+  form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ab0545;
+    border-radius: 10px;
+    background-color: #ea0a9f;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  input[type="number"] {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #05ca29;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  button2 {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f40e1a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button2:hover {
+    background-color: #a8272d;
+  }
+  
+  button3 {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #0bbbfc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button3:hover {
+    background-color: #1e8fb8;
+  }
+
+  input[type="number"][readonly] {
+    background-color: #ddd;
+  }
+  
+  /* Style the error message */
+  #error-message {
+    color: red;
+    display: none;
+    margin-top: 10px;
+  }

@@ -3,34 +3,38 @@
 <html>
 <head>
 	<title>Parallelogram Calculator</title>
+	<link rel="stylesheet" href="calcstyle.css">
 </head>
 <body>
 	<h1>Parallelogram Calculator</h1>
 	<img src="parallelogramformula.png"><br><br>
 
 	<form>
-		<label for="base">Base:</label>
+		<label for="base">Base :</label>
 		<input type="number" id="base" name="base" required><br><br>
 
-		<label for="height">Height / Side :</label>
+		<label for="height">Height :</label>
+		<input type="number" id="height" name="height" required><br><br>
+
+		<label for="side">Side :</label>
 		<input type="number" id="side" name="side" required><br><br>
 
-		<input type="button" value="Calculate" onclick="calculate()">
+		<p id="error-message" style="color: red; display: none;">Please enter a value for the base, height and side."</p>
+
+		<button onclick="calculate2()">Calculate Area</button>
+        <button2 type="reset">Reset</button2><br><br>
         
-        <input type="reset" value="Reset"><br><br>
-        
-		<label for="resultarea">Area:</label>
+		<label for="resultarea">Area :</label>
 		<input type="number" id="resultarea" name="resultarea" disabled><br><br>
 
-        <label for="resultperimeter">Perimeter:</label>
+        <label for="resultperimeter">Perimeter :</label>
 		<input type="number" id="resultperimeter" name="resultperimeter" disabled><br><br>
+
+		<button3 onclick="goBack()">Back</button3><br><br>
 	</form>
 
-    <form action="index.html" method="get">
-		<input type="submit" value="Back">
-	</form>
-
-	<script src="calculateboth.js"></script>
+    
+	<script src="calcboth.js"></script>
 	
 </body>
 </html>
