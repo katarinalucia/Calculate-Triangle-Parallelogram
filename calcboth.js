@@ -15,7 +15,7 @@ function calculate1() {
 
 
     var side1 = document.getElementById("side").value;
-    var base2 = document.getElementById("base").value;
+    var base = document.getElementById("base").value;
     var errorMessage = document.getElementById("error-message");
 
     if (base === "" || height === "" || side1 === "") {
@@ -44,7 +44,6 @@ function calculate2() {
       }
 
 
-
     var side1 = document.getElementById("side").value;
     var base = document.getElementById("base").value;
     var errorMessage = document.getElementById("error-message");
@@ -60,10 +59,6 @@ function calculate2() {
 
 }
 
-function goBack() {
-    window.history.back();
-}
-
-function gotriangle() {
-    window.location.href = "calctriangle.html";
+function goHome() {
+    window.location.href ="index.html";
 }

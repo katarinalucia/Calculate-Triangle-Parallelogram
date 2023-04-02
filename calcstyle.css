@@ -54,35 +54,7 @@
   button:hover {
     background-color: #72b01d;
   }
-
-  button2 {
-    margin-top: 10px;
-    padding: 5px 15px;
-    border-radius: 5px;
-    background-color: #b1150c;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-
-  button2:hover {
-    background-color: #e71d36;
-  }
   
-  button3 {
-    margin-top: 10px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #00526e;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-
-  button3:hover {
-    background-color: #0d80bf;
-  }
-
   input[type="number"][readonly] {
     background-color: #ddd;
   }
