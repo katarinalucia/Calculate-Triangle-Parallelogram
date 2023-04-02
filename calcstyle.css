@@ -53,10 +53,3 @@
   input[type="number"][readonly] {
     background-color: #ddd;
   }
-  
-  /* Style the error message */
-  #error-message {
-    color: #e70e02;
-    display: none;
-    margin-top: 10px;
-  }
