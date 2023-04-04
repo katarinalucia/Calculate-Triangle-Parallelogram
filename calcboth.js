@@ -3,27 +3,37 @@ function calculate1() {
     var base = document.getElementById("base").value;
     var height = document.getElementById("height").value;
     var side = document.getElementById("side").value;
+
     var result1 = 0.5 * base * height;
     var result2 = Number(side) + Number(side) + Number(base);
+
     document.getElementById("resultarea").value = result1.toFixed(2);
-    document.getElementById("resultperimeter").value = result2.toFixed(2); 
+    event.preventDefault();
+    
+    document.getElementById("resultperimeter").value = result2.toFixed(2);
+    event.preventDefault();
+
+    
 }
 
 function calculate2() {
     var base = document.getElementById("base").value;
     var height = document.getElementById("height").value;
     var side = document.getElementById("side").value;
+
     var result1 = base * height;
     var result2 = 2 * (Number(side) + Number(base));
+
     document.getElementById("resultarea").value = result1.toFixed(2);
+    event.preventDefault();
+    
     document.getElementById("resultperimeter").value = result2.toFixed(2);
+    event.preventDefault();
 }
 
 function goHome() {
   window.location.href ="index.html";
 }
-
-
 
 
 /*
