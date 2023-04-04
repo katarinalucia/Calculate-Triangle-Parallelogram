@@ -22,14 +22,16 @@
 				<label for="side">Side :</label>
 				<input type="number" id="side" name="side" required><br><br>
 			</div>
+
+			<!--
 			<div>
 				<p id="error-message" style="color: red; display: none;">Please enter a value for the base, height and side."</p>
 			</div>
+			-->
+
 			<div>
 				<button onclick="calculate2()">Calculate</button>
-			</div>
-			<div>
-        		<button type="reset">Reset</button><br><br>
+        		<button class="reset" type="reset">Reset</button><br><br>
 			</div>
 			<div>
 				<label for="resultarea">Area :</label>
@@ -39,13 +41,14 @@
 				<input type="number" id="resultperimeter" name="resultperimeter" disabled><br><br>
 			</div>
 			<div>
-				<button onclick="goHome()">Back</button><br><br>
+				<button class="gohome" onclick="goHome()">Home</button><br><br>
 			</div>
 		</form>
 	</div>
 
     
 	<script src="calcboth.js"></script>
+
 </body>
 </html>
 

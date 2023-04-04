@@ -9,9 +9,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 30%;
   }
   
+  .calcimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
   form {
     width: 300px;
     margin: 20px auto;
@@ -40,15 +47,45 @@
     margin-top: 10px;
     padding: 10px 10px;
     border-radius: 5px;
-    background-color: #3f7d20;
+    background-color: #058c42;
     color: #fff;
     border: none;
     cursor: pointer;
   }
   
   button:hover {
-    background-color: #72b01d;
+    background-color: #16db65;
   }
+
+  .reset {
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #c00021;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reset:hover {
+    background-color: #ff002b;
+  }
+
+
+  .gohome {
+    margin-top: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #072ac8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .gohome:hover {
+    background-color: #1e96fc;
+  }
+
   
   input[type="number"][readonly] {
     background-color: #ddd;
